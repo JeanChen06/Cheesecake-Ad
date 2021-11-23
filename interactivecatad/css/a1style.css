@@ -1,0 +1,463 @@
+/*CSS Document*/
+/*
+*{  overflow: hidden;
+    box-sizing: border-box;
+    
+}
+*/
+
+body{
+	font-family:'Roboto', sans-serif;
+}
+/*All scenes*/
+.sc{
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(212, 212, 231);
+    height: 250px;
+    width: 300px;
+    overflow: hidden;
+    display:block;
+}
+
+
+/*Scene 1*/
+.scene1{
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    height: 250px;
+    width: 300px; 
+     /* display:none ; */
+}
+
+.cat1{
+    position: relative;
+    top: 100px;
+    left: 10px;
+    height: 350px;
+}
+
+.qn1{
+    position: absolute;
+    top: 25px;
+    left: 35px;;
+    color: black;
+    font-size: 30px;
+    
+}
+
+.yes1{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    top: 130px;
+    left:-50px;
+    transition: .5s;
+}
+.yes1:hover{
+    font-size: 30px;
+    
+}
+.no1{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    top: 135px;
+    right: -50px;
+    transition: .5s;
+}
+
+.no1:hover{
+    font-size: 30px;
+}
+
+.ans{
+    text-decoration: none;
+}
+/*Scene 1B goes to Scene 3*/
+.scene1b{
+    display: none;
+}
+.fine{
+    position: absolute;
+    top:190px;
+    right:10px;
+    font-size: 15px;
+    text-decoration: none;
+    color:black;
+    transition: .5s;
+}
+.fine:hover{
+    font-size: 20px;
+}
+.cat1b{
+    position: relative;
+    top: 70px;
+    left: 60px;
+    height: 320px;
+}
+.scold{
+    position: absolute;
+    top: 25px;
+    left: 35px;;
+    color: black;
+    font-size: 20px;
+}
+/*Scene 2*/
+
+.scene2{
+    /* border-style: solid;
+    border-color: black;
+    height: 50vh;
+    width: 50vh; */
+    display: none;
+}
+
+
+.cat2{
+    position: relative;
+    top: 100px;
+    right: 110px;
+    height: 350px;
+    transform: rotate(30deg);
+}
+
+.qn2{
+    position: absolute;
+    top: 25px;
+    left: 45px;;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.yes2{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    top: 180px;
+    left: 170px;
+    transition: .5s;
+}
+
+.yes2:hover{
+    font-size: 30px;
+}
+
+.no2{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    top: 180px;
+    left: 230px;
+    transition: .5s;
+}
+
+.no2:hover{
+    font-size: 30px;
+}
+
+
+/*Scene 2b*/
+.scene2b{
+    display: none;
+}
+
+.cat2b{
+    position: relative;
+    top: 70px;
+    left: 60px;
+    height: 320px;
+}
+.scold2{
+    position: absolute;
+    top: -5px;
+    left: 3px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.finee{
+    position: absolute;
+    top:190px;
+    right:40px;
+    font-size: 15px;
+    text-decoration: none;
+    color:black;
+    transition: .5s;
+}
+
+.finee:hover{
+    font-size: 20px;
+}
+/*Scene 3*/
+
+
+.scene3{
+    display: none;
+}
+
+.cat3{
+    position: relative;
+    top: 70px;
+    left: 25px;
+    height: 320px;
+}
+
+.line3{
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    opacity: 1;
+}
+
+.yes3{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    top: 130px;
+    left:-60px;
+    transition: .5s;
+}
+.yes3:hover{
+    font-size: 30px;
+}
+.no3{
+    color: black;
+    position: absolute;
+    font-size: 20px;
+    top: 130px;
+    right: -70px;
+    transition: .5s;
+}
+.no3:hover{
+    font-size: 30px;
+}
+
+/* raining scene*/
+/* #bubbleX{
+    width: 300px;
+    /* z-index: 20; */
+
+.b1 {
+   	 height: 40px;
+     width: 10px;
+     background-color: rgb(70, 70, 255);
+     opacity: 60%;
+     border-radius: 50%;
+     margin-top: -300px;
+     margin-left: 5px;
+     position: absolute;
+     z-index: 300;
+ }
+ 
+ .b2 {
+     height: 40px;
+     width: 10px;
+     background-color: rgb(70, 70, 255);
+     opacity: 60%;
+     border-radius: 50%;
+     margin-top: -300px;
+     margin-left: 5px;
+     position: absolute;
+     z-index: 300;
+ }
+ 
+ .b3 {
+     height: 45px;
+     width: 10px;
+     background-color: rgb(70, 70, 255);
+     opacity: 60%;
+     border-radius: 50%;
+     margin-top: -300px;
+     margin-left: 10px;
+     position: absolute;
+     z-index: 300;
+ }
+ 
+ .b4 {
+     height: 50px;
+     width: 15px;
+     background-color: rgb(70, 70, 255);
+     opacity: 60%;
+     border-radius: 50%;
+     margin-top: -300px;
+     margin-left: 10px;
+     position: absolute;
+     z-index: 300;
+ }
+ 
+/* //////////////////////////////// */
+
+
+
+.scene4{
+    display: none;
+}
+
+.cake{
+    position: absolute;
+    height: 250px;
+    width: 300px;
+}
+
+.cat4{
+    position: absolute;
+    transform: rotate(330deg);
+    height: 350px;
+    top: 90px;
+    right: -130px;
+}
+
+.brag{
+    position: absolute;
+    color: white;
+    top: 5px;
+    left: 10px;
+    text-align: center;
+    font-size: 20px;
+    /* background-color: black; */
+}
+
+.wow{
+    position: absolute;
+    top:70px;
+    left: 75px;
+    font-size: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 15px;
+    transition: .5s;
+}
+.wow:hover{
+    font-size:20px;
+}
+
+.scene5{
+    display: none;
+}
+
+.endpic{
+    position: absolute;
+    height: 250px;
+    opacity: 0;
+}
+
+.last{
+    position: absolute;
+    color: white;
+    opacity: 1;
+}
+
+.ending1{
+    color: white;
+    font-size: 42px;
+    left: 36px;
+    top: -20px;
+    font-family: 'Dancing Script', cursive;
+}
+/* .scene5 p{
+    font-family: 'Dancing Script', cursive;
+} */
+.ending2{
+    font-size: 25px;
+    left: 134px;
+    top: 49px;
+}
+
+.ending3{
+    top: 65px;
+    left: 94px;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.visit{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 186px;
+    left: 94px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.replay2{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 210px;
+    left: 130px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.scene3b{
+    display: none;
+}
+
+.bgscene{
+    position: absolute;
+    top: -1px;
+    height: 267px;
+    width: 300px;
+}
+.lightning{
+    position: absolute;
+    height: 90px;
+    left: 30px;
+    top: 20px;
+}
+.lightning2{
+    position: absolute;
+    height: 115px;
+    right: 40px;
+    top: 10px;
+    }
+.storm{
+    position: absolute;
+    height: 141px;
+    top: -63px;
+    width: 327px;
+    left: -11px;
+}
+.sad{
+    position: absolute;
+    height: 56px;
+    left: 20px;
+    top: 179px;
+
+}
+
+.cat5{
+    position: absolute;
+    height: 208px;
+    left: -61px;
+    top: 117px;
+}
+
+.sadtalk{
+    position: absolute;
+    font-size: 40px;
+    top: 105px;
+    left: 146px;
+    color: white;
+
+}
+
+.replay{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 218px;
+    left: 162px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}

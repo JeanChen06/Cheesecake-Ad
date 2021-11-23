@@ -1,0 +1,271 @@
+/*
+DM5212 Scripting 1 Assignment 1
+Name:           Admin No:           Date: 
+*/
+*{
+	box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.scenes{
+    margin: 30px;
+    display: flex;
+    
+}
+
+.s1{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+}
+
+#s1text{
+    text-align: center;
+    font-size: 40;
+    padding: 20px;
+    
+     
+}
+
+.s1button{
+    margin-left: 70px;
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    border-style: solid;
+}
+
+
+
+#s1pic{
+    width: 100px;
+    height: 150px;
+    background-color: navy;
+    position:relative;
+    left: 94px;
+    color: white;
+    text-align: center;
+    
+}
+
+.s2{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    float: left;
+}
+
+#s2text{
+    text-align: center;
+    font-size: 40;
+    padding: 20px;
+    
+}
+
+#s2pic{
+    background-color: navy;
+    height: 150px;
+    width: 150px;
+    margin-top:17 ;
+    text-align: center;
+    color: white;
+    margin-bottom: ;
+}
+
+.s2button{ 
+    float:right;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    border-style: solid;
+}
+
+.s3{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    float: left;
+}
+
+#s3text{
+    font-size: 30px;
+    padding: 20px;
+    
+}
+
+.s3buttons{
+    text-decoration: none;
+    margin: 50px;
+    color: black;
+    border-color: black;
+    border-style: solid;
+}
+
+#s3pic{
+    text-align: center;
+    margin-top: 20px;
+    background-color: navy;
+    height: 118px;
+    width: 118px;
+    margin-left: 73px;
+    color: white;
+}
+
+.s4{
+    margin: 20;
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    float: left;
+}
+
+#s4text{
+    font-size: 40px;
+    text-align: center;
+}
+
+#s4pic{
+    text-align: center;
+    background-color: navy;
+    height: 200px;
+    width: 200px;
+    color: white;
+    
+}
+
+.s4button{
+    position: absolute;
+    left: 1300px;
+    top: 300px;
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 0;
+    border-color: black;
+}
+
+.s1b{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    float: left;
+}
+
+#s1btext{
+    font-size: 30px;
+    text-align: center;
+}
+
+#s1bpic{
+    background-color: navy;
+    color:white;
+    height: 200px;
+    text-align: center;
+    width: 150px;
+    margin-left: 65px;
+    
+
+}
+
+.s1bbutton{
+    text-decoration: none;
+    position: absolute;
+    left:270px;
+    top: 700px;
+    color: black;
+    border-color: black;
+    border-style: solid;
+}
+
+.s2b{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    float: left;
+}
+
+#s2btext{
+    font-size: 30px;
+    text-align: center;
+}
+
+#s2bpic{
+    text-align: center;
+    color: white;
+    background-color: navy;
+    width: 150px;
+    height: 200px;
+    margin-left: 65px;
+}
+.s2bbutton{
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    position: absolute;
+    left:650px;
+    top: 700;
+    
+}
+
+.s3b{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    float: left;
+}
+
+#s3bcloud{
+    background-color: navy;
+    height: 100px;
+    color: white;
+    text-align: center;
+    
+}
+
+#s3b{
+    background-color: navy;
+    margin-top: 60px;
+    height: 140px;
+    width: 150px;
+    color: white;
+}
+.s3bbuttons{
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+    position: relative;
+    left: 200px;
+    bottom: 40px;
+}
+
+.s5{
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    float: left;
+}
+
+#quote{
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    margin: 40px
+}
+
+.s5buttons{
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    border-style: solid;
+}
